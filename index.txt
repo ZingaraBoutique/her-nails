@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zingara Boutique - Luxury Press-On Nails</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Zingara Boutique</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#benefits" class="nav-link">Benefits</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#order" class="nav-link">Order</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Salon-Quality Nails in Just 5 Minutes 💅</h1>
+            <p class="hero-subtitle">Reusable, Affordable & Perfect for Every Occasion</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="https://wa.me/923136706006?text=Hi%20I%20want%20to%20order%20press%20on%20nails" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="nail-display"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Luxury Collection</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ffe4e1, #f8d7da);">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Velvet Rose</h3>
+                    <p class="price">PKR 999</p>
+                    <button class="btn-order" data-product="Velvet Rose - PKR 999">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fff0f5, #f5f5f5);">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Golden Glam</h3>
+                    <p class="price">PKR 1,199</p>
+                    <button class="btn-order" data-product="Golden Glam - PKR 1,199">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #e6e6fa, #d8bfd8);">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Pink Pearl</h3>
+                    <p class="price">PKR 1,099</p>
+                    <button class="btn-order" data-product="Pink Pearl - PKR 1,099">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #f0f8ff, #e0ffff);">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Soft Nude</h3>
+                    <p class="price">PKR 999</p>
+                    <button class="btn-order" data-product="Soft Nude - PKR 999">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fff8dc, #f0e68c);">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Champagne Glow</h3>
+                    <p class="price">PKR 1,299</p>
+                    <button class="btn-order" data-product="Champagne Glow - PKR 1,299">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #dda0dd, #d8bfd8);">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Lavender Dream</h3>
+                    <p class="price">PKR 1,199</p>
+                    <button class="btn-order" data-product="Lavender Dream - PKR 1,199">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Why Choose Zingara?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>No Damage</h3>
+                    <p>Gentle on natural nails, safe for regular use</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🔄</div>
+                    <h3>Reusable</h3>
+                    <p>Up to 3-4 wears per set with proper care</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>5-Min Application</h3>
+                    <p>Easy DIY, no salon appointments needed</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✨</div>
+                    <h3>Salon Quality</h3>
+                    <p>Premium materials for flawless finish</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Apply -->
+    <section class="how-to">
+        <div class="container">
+            <h2 class="section-title">How to Apply in 4 Easy Steps</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Clean Nails</h3>
+                    <p>Wipe natural nails with alcohol wipe</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Apply Glue</h3>
+                    <p>Add small drop of glue to nail</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Press On</h3>
+                    <p>Align press-on nail & press firmly</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Hold 10s</h3>
+                    <p>Hold for 10 seconds. Done! 💅</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Absolutely stunning! They look like I just came from the salon. Lasted 2 weeks!"</p>
+                    <h4>- Ayesha K.</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best press-ons I've tried. So easy to apply and super reusable!"</p>
+                    <h4>- Fatima S.</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Golden Glam is my favorite! Got so many compliments at my sister's wedding."</p>
+                    <h4>- Sara M.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Section -->
+    <section class="urgency">
+        <div class="container">
+            <div class="urgency-content">
+                <h2>Limited Stock Available</h2>
+                <p class="urgency-text">Selling fast 🔥 Only a few sets left!</p>
+                <a href="#order" class="btn btn-primary">Order Before It's Gone</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="order-form">
+        <div class="container">
+            <h2 class="section-title">Place Your Order</h2>
+            <form id="orderForm" class="order-form-container">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="address" placeholder="Complete Address" required>
+                </div>
+                <div class="form-group">
+                    <select id="product" required>
+                        <option value="">Select Product</option>
+                        <option value="Velvet Rose - PKR 999">Velvet Rose - PKR 999</option>
+                        <option value="Golden Glam - PKR 1,199">Golden Glam - PKR 1,199</option>
+                        <option value="Pink Pearl - PKR 1,099">Pink Pearl - PKR 1,099</option>
+                        <option value="Soft Nude - PKR 999">Soft Nude - PKR 999</option>
+                        <option value="Champagne Glow - PKR 1,299">Champagne Glow - PKR 1,299</option>
+                        <option value="Lavender Dream - PKR 1,199">Lavender Dream - PKR 1,199</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Place Order</button>
+            </form>
+            <div id="successMessage" class="success-message" style="display: none;">
+                <i class="fas fa-check-circle"></i>
+                <h3>Your order has been received!</h3>
+                <p>We will contact you shortly on WhatsApp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Zingara Boutique</h3>
+                    <p>Luxury press-on nails delivered to your door</p>
+                </div>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i> 0313-6706006</p>
+                    <p><i class="fas fa-envelope"></i> commutekhaki@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Zingara Boutique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923136706006?text=Hi%20I%20want%20to%20order%20press%20on%20nails" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
